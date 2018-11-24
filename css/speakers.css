@@ -115,7 +115,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #583000;
+	background: #666666;
 	color: #FFFFFF;
 }
 p::selection
@@ -272,10 +272,10 @@ section
 	width: 200%;
 	height: 100%;
 	content: '';
-	background-color: #2C1800;
-	background-image: linear-gradient(to right, #2C1800, #583000, #2C1800);
-	background: #2C1800;
-	background: linear-gradient(to right, #2C1800, #583000, #2C1800);
+	background-color: #000001;
+	background-image: linear-gradient(to right, #000001, #666666, #000001);
+	background: #000001;
+	background: linear-gradient(to right, #000001, #666666, #000001);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -306,10 +306,10 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background-color: #2C1800;
-	background-image: linear-gradient(to right, #2C1800, #583000);
-	background: #2C1800;
-	background: linear-gradient(to right, #2C1800, #583000);
+	background-color: #000001;
+	background-image: linear-gradient(to right, #000001, #666666);
+	background: #000001;
+	background: linear-gradient(to right, #000001, #666666);
 	z-index: 101;
 	opacity: 0;
 	visibility: hidden;
@@ -422,7 +422,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #2C1800;
+	background: #000001;
 }
 .menu_social
 {
@@ -588,18 +588,18 @@ section
 .logo_text
 {
 	line-height: 0.94;
-	color: #2C1800;
+	color: #000001;
 	font-size: 34px;
 	font-weight: 500;
 	text-align: left;
 }
 .logo_text_not_ie
 {
-	background-image: -webkit-linear-gradient(left, #2C1800, #583000); /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(left, #2C1800, #583000); /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(left, #2C1800, #583000); /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(left, #2C1800, #583000); /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #2C1800, #583000); /* Standard syntax; must be last */
+	background-image: -webkit-linear-gradient(left, #000001, #666666); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #000001, #666666); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #000001, #666666); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #000001, #666666); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #000001, #666666); /* Standard syntax; must be last */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -635,7 +635,7 @@ section
 }
 .header_social ul li a i:hover
 {
-	color: #583000;
+	color: #666666;
 }
 .hamburger
 {
@@ -654,7 +654,7 @@ section
 }
 .hamburger i:hover
 {
-	color: #583000;
+	color: #666666;
 }
 .header_nav
 {
@@ -697,10 +697,10 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: #2C1800;
-	background-image: linear-gradient(to right, #2C1800, #583000);
-	background: #2C1800;
-	background: linear-gradient(to right, #2C1800, #583000);
+	background-color: #000001;
+	background-image: linear-gradient(to right, #000001, #666666);
+	background: #000001;
+	background: linear-gradient(to right, #000001, #666666);
 	opacity: 0;
 	z-index: 0;
 	-webkit-transition: all 200ms ease;
@@ -747,10 +747,10 @@ section
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #2C1800;
-	background-image: linear-gradient(to right, #2C1800, #583000);
-	background: #2C1800;
-	background: linear-gradient(to right, #2C1800, #583000);
+	background-color: #000001;
+	background-image: linear-gradient(to right, #000001, #666666);
+	background: #000001;
+	background: linear-gradient(to right, #000001, #666666);
 	z-index: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -809,7 +809,7 @@ section
 }
 .header_search:hover i
 {
-	color: #583000;
+	color: #666666;
 }
 .header_button
 {
@@ -978,7 +978,7 @@ section
 }
 .footer_social_list li a i:hover
 {
-	color: #583000;
+	color: #666666;
 }
 .footer_extra_links ul li
 {
@@ -998,7 +998,7 @@ section
 }
 .footer_extra_links ul li a:hover
 {
-	color: #583000;
+	color: #666666;
 }
 .footer_extra_links ul li:not(:last-child)::after
 {
